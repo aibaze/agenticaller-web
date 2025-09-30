@@ -316,11 +316,11 @@ const postulations_url = "/users/postulations";
                             <div className="space-y-3">
                               <div className="flex items-center text-slate-600">
                                 <Mail className="h-3 w-3 mr-2 text-blue-500" />
-                                <span className="text-xs">{candidate.candidate_email}</span>
+                                <span className="text-xs">tomass@gmail.com</span>
                               </div>
                               <div className="flex items-center text-slate-600">
                                 <Phone className="h-3 w-3 mr-2 text-green-500" />
-                                <span className="text-xs">{candidate.candidate_phone}</span>
+                                <span className="text-xs">+971235938325</span>
                               </div>
                             </div>
                           </div>
