@@ -96,7 +96,7 @@ export default function AgentsExample() {
     if (pendingAgentId && pendingAssistantId) {
       try {
         // Send feedback data
-        await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/users/feedback`, {
+        await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/users/feedback`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
