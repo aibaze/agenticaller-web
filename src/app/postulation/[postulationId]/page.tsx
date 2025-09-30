@@ -38,9 +38,9 @@ const postulations_url = "/users/postulations";
 
   const columns = [
     { key: 'screening', title: 'Screening', color: 'border-cyan-400' ,callbackFunction: (candidate: Candidate)=> handleScreening(candidate), cta : 'Execute Screening'},
-    { key: 'screening_finished', title: 'Screening Finished', color: 'border-emerald-400',disabled:true, cta : 'Screening in progress'},
+    { key: 'screening_finished', title: 'Screening in progress', color: 'border-emerald-400',disabled:true, cta : 'Screening in progress'},
     { key: 'technical_interview', title: 'Technical Interview', color: 'border-yellow-400',callbackFunction: (candidate: Candidate)=> handleTechnicalInterview(candidate), cta : 'Trigger interview' },
-    { key: 'technical_interview_finished', title: 'Interview Done', color: 'border-orange-400',disabled:true, cta : 'Interview in progress' },
+    { key: 'technical_interview_finished', title: 'Interview in progress', color: 'border-orange-400',disabled:true, cta : 'Interview in progress' },
     { key: 'final_meeting', title: 'Final Meeting', color: 'border-pink-400', disabled:true, cta : 'Schedulded in your calendar'}
   ];
 
