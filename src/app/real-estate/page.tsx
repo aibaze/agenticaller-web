@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Phone, Mail, Home, Clock, CheckCircle, Star, Play, ArrowRight, Zap, Headphones, MessageSquare, Calendar, Award, TrendingUp, Building2, UserCheck, FileText, Target, Shield, Globe, MapPin, DollarSign, Users, PhoneCall, RefreshCw, Settings } from "lucide-react";
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function RealEstatePage() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -109,10 +110,12 @@ export default function RealEstatePage() {
       <div className="relative overflow-hidden">
         {/* Background Image with Dark Overlay */}
         <div className="absolute inset-0">
-          <img 
+          <Image 
             src="https://images.pexels.com/photos/7414947/pexels-photo-7414947.jpeg" 
             alt="Modern real estate office with city skyline"
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
+            priority
           />
           <div className="absolute inset-0 bg-black/60" />
         </div>
@@ -277,7 +280,7 @@ export default function RealEstatePage() {
               Why Leading Real Estate Teams Choose Us
             </h2>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              Join hundreds of real estate professionals who've transformed their business with AI.
+              Join hundreds of real estate professionals who&apos;ve transformed their business with AI.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -308,7 +311,7 @@ export default function RealEstatePage() {
                 <div className="flex mb-4">
                   {renderStars(testimonial.rating)}
                 </div>
-                <p className="text-slate-700 mb-6 italic">"{testimonial.content}"</p>
+                <p className="text-slate-700 mb-6 italic">&ldquo;{testimonial.content}&rdquo;</p>
                 <div>
                   <div className="font-semibold text-slate-900">{testimonial.name}</div>
                   <div className="text-slate-600 text-sm">{testimonial.role}</div>

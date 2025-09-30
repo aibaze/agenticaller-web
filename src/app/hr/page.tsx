@@ -230,7 +230,7 @@ export default function HRPage() {
               Why Leading HR Teams Choose Us
             </h2>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              Join hundreds of HR professionals who've transformed their recruitment process with AI.
+              Join hundreds of HR professionals who&apos;ve transformed their recruitment process with AI.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -261,7 +261,7 @@ export default function HRPage() {
                 <div className="flex mb-4">
                   {renderStars(testimonial.rating)}
                 </div>
-                <p className="text-slate-700 mb-6 italic">"{testimonial.content}"</p>
+                <p className="text-slate-700 mb-6 italic">&ldquo;{testimonial.content}&rdquo;</p>
                 <div>
                   <div className="font-semibold text-slate-900">{testimonial.name}</div>
                   <div className="text-slate-600 text-sm">{testimonial.role}</div>
