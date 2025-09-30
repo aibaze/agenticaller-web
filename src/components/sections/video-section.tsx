@@ -44,8 +44,42 @@ const videos: VideoData[] = [
     title: "80K/mo AI voice Agents for Real Estate [Full-Explained]",
     embedUrl: "https://www.youtube.com/embed/9fBjqlfeWWk?si=u5GYzb_xzvxw_9t_",
     thumbnailUrl: "https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg"
-   }
-];
+   },
+   {
+    id: "video6",
+    title: "5 $1M AI businesses to build in 2025 (Real Blueprint)",
+    embedUrl: "https://www.youtube.com/embed/YzbRsq3ATPQ?si=sNJ81CDAyXFqAcfs",
+    thumbnailUrl: "https://i.ytimg.com/vi/YzbRsq3ATPQ/mqdefault.jpg"
+   },
+
+   {
+    id: "video7",
+    title: "Prompt Injection Tutorial: AI Agent Under Attack",
+    embedUrl: "https://www.youtube.com/embed/qmFPYhkrZDI?si=1bWgc7AiR5M5HD_k",
+    thumbnailUrl: "https://i.ytimg.com/vi/qmFPYhkrZDI/mqdefault.jpg"
+   },
+
+
+   {
+    id: "video8",
+    title: "Build AI Agents with Vapi Web SDK | Dev Tutorial ( Tool Calls, Live Speech & Email Capture )",
+    embedUrl: "https://www.youtube.com/embed/GWOmFuENfyE?si=i_ede_cZ9iYdMR_K",
+    thumbnailUrl: "https://i.ytimg.com/vi/GWOmFuENfyE/mqdefault.jpg"
+   },
+   {
+    id: "video9",
+    title: "How To Built a Multilingual Appointment Setter for HR | VAPI WORKFLOWS TUTORIAL",
+    embedUrl: "https://www.youtube.com/embed/oM78ic2OzQI?si=kve-mwDCh9Ny832k",
+    thumbnailUrl: "https://i.ytimg.com/vi/HmzZy-k-f4g/mqdefault.jpg"
+   },
+   {
+    id: "video10",
+    title: "How To Build a Complex HR Technical Interviewer | VAPI WORKFLOWS TUTORIAL (PART 2)",
+    embedUrl: "https://www.youtube.com/embed/HmzZy-k-f4g?si=c6TdI5RDKUoM7KO7",
+    thumbnailUrl: "https://i.ytimg.com/vi/HmzZy-k-f4g/mqdefault.jpg"
+   },
+  
+  ];
 
 export default function VideoSection() {
   return (
